@@ -1,0 +1,53 @@
+
+  body{
+      font-size: 1.125rem;
+      color: #707070;
+     
+  }
+  
+  .container{
+      margin: 95%;
+      max-width: 980;
+      margin: 1em auto;
+      padding: 1em 2em;
+      
+  }
+ .bio{
+   border: 1px solid black;
+   border-radius: 2rem;
+ }
+.header{
+    text-align: center;
+    font-weight: bold;
+}
+h1,h2,h3{
+    border: black solid 1px;
+    background-color: #a3c2c2;
+    width: 60%;
+}
+
+  
+  .columns{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1em 0;
+  }
+
+  
+  .col1{
+      width: 50%;
+  }
+  .col2{
+      width: 50%;
+  }
+  
+  @media(max-width:600Px){
+      .columns{
+          flex-direction: column;
+      }
+      .col1,.col2,.col3{
+          width: 100%;
+      }
+
+  }
